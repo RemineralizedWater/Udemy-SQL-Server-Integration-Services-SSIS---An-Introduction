@@ -5,21 +5,21 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="KALI"
   DTS:CreatorName="KALI\Kali"
-  DTS:DTSID="{A60140AD-4950-40D8-8479-1836239F6B2F}"
+  DTS:DTSID="{61DE92DE-AADB-44C5-8A33-E097848F1237}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.132"
   DTS:LocaleID="4105"
-  DTS:ObjectName="Package1"
+  DTS:ObjectName="38_Merge"
   DTS:PackageType="5"
-  DTS:VersionBuild="30"
-  DTS:VersionGUID="{7BE19CFC-F910-4173-B023-47BDAF556B32}">
+  DTS:VersionBuild="31"
+  DTS:VersionGUID="{7A34782A-56CF-41E7-B477-85F370179365}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{5000E0BC-EDDF-43D0-820B-A79FC72EC26B}"
+      DTS:DTSID="{67F7A47E-C3D9-4FEB-954C-DC5BBCCFA5AA}"
       DTS:ObjectName="Excel Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -29,7 +29,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Excel Connection Manager 1]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{244E6CCD-B243-40A0-865D-B646A04F4BD6}"
+      DTS:DTSID="{6EBCD1EF-E86A-4BFD-B3A2-6446144EB773}"
       DTS:ObjectName="Excel Connection Manager 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -39,7 +39,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[LocalHost.SSIS]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{371ED34F-7D12-45C9-91DC-A65CFFA8692B}"
+      DTS:DTSID="{F7CF75F7-F5C9-41E9-B414-096FBBA1AEF5}"
       DTS:ObjectName="LocalHost.SSIS">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -49,7 +49,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Text File Input]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{935A41FA-F75B-483D-87A4-2F33A5EBA1E4}"
+      DTS:DTSID="{835E7A11-00D9-4BA8-8C2A-356DAD928356}"
       DTS:ObjectName="Text File Input">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -69,7 +69,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CustomerID"
-              DTS:DTSID="{8AD0DB37-EE89-422F-AD41-DAE7789123B5}"
+              DTS:DTSID="{7DAF8363-FAA3-4BA1-B1F4-698BDBF8B0D3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -78,7 +78,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NameStyle"
-              DTS:DTSID="{F9F3CC85-8CD5-4F27-9DB5-5A735F528878}"
+              DTS:DTSID="{4CF70352-6EC0-45FC-A872-2D6118365DF0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -87,7 +87,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Title"
-              DTS:DTSID="{BCC6EC3D-A17A-4CCE-BC64-7EA26CCD9157}"
+              DTS:DTSID="{96297FE1-B5E4-422A-A1FD-B02C145537F1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -96,7 +96,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FirstName"
-              DTS:DTSID="{E6F96C3E-FBBC-4BDC-B9D5-C1118FBC5E97}"
+              DTS:DTSID="{17C73A9E-E47A-49DC-A0BA-FAE59664CCDC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -105,7 +105,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LastName"
-              DTS:DTSID="{7658348B-2804-450B-A38A-CE5B1316C69B}"
+              DTS:DTSID="{03F7C434-FBA2-4CDE-B5EC-D479EF9535B5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -114,7 +114,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CompanyName"
-              DTS:DTSID="{5BD6959B-5BE6-4D5E-BF73-117BE19BE41D}"
+              DTS:DTSID="{A6BEC2CA-DFA1-41E7-BE27-AEB8E0C78E8D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -123,7 +123,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesPerson"
-              DTS:DTSID="{CA97E51D-42B0-4D4E-B7CF-3EAC94034529}"
+              DTS:DTSID="{AE37EB39-69A4-4853-AB80-52DEB5AA7871}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -132,7 +132,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="EmailAddress"
-              DTS:DTSID="{CE8EA4E6-6C0F-4828-8F5F-3EB13360F50B}"
+              DTS:DTSID="{DDD63807-1AB4-498B-961E-C62D4280C6C7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -141,7 +141,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Phone"
-              DTS:DTSID="{99526990-CEF0-4496-9048-480388D37C9E}"
+              DTS:DTSID="{B37F160B-E713-4521-A064-C1C8B34BCDF5}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -154,7 +154,7 @@
       DTS:refId="Package\Data Flow Task"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{C61A1090-C054-4F03-BF88-258BC682C94F}"
+      DTS:DTSID="{09F3CDDE-697E-41F0-AC21-C37F570FE802}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Data Flow Task"

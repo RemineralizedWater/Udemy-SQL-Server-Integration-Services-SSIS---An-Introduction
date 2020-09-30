@@ -11,8 +11,8 @@
   DTS:LocaleID="4105"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{D6ADD8DC-69DE-4CE0-B1A1-7C866F18DC1F}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{47A0A6C1-E2BC-44F9-8B5B-789F1DEE4AAB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,7 +23,7 @@
       DTS:ObjectName="Excel Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Kali\Desktop\Concordia\Co-op\Co-op\Work Term\2020F\Genetec - BI Software Developer\Tutorials\Udemy-SQL Server Integration Services (SSIS) - An Introduction\SSIS\Source Files\Input01.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Kali\Desktop\Concordia\Co-op\Co-op\Work Term\2020F\Genetec - BI Software Developer\Tutorials\Udemy-SSIS An Intro\SSIS\Source Files\Input01.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -33,7 +33,7 @@
       DTS:ObjectName="Excel Connection Manager 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Kali\Desktop\Concordia\Co-op\Co-op\Work Term\2020F\Genetec - BI Software Developer\Tutorials\Udemy-SQL Server Integration Services (SSIS) - An Introduction\SSIS\Source Files\Output01.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Kali\Desktop\Concordia\Co-op\Co-op\Work Term\2020F\Genetec - BI Software Developer\Tutorials\Udemy-SSIS An Intro\SSIS\Source Files\Output01.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -658,7 +658,7 @@
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-51.7119656103229,43.7083319676419,13.2328515625,9.5537109375"
+              BoundingBox="-51.7119656103228,43.7083319676419,30.882265625,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -740,7 +740,7 @@
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="28.6905329042177,37.2977994510567,31.7149609375,9.5537109375"
+              BoundingBox="28.6905329042175,37.2977994510567,49.452265625,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
